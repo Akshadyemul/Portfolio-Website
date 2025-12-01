@@ -1,10 +1,15 @@
 import NavBar from "./components/NavBar"
+import Home from "./pages/Home"
 
 function App() {
 
   return (
     <>
-      <NavBar />
+    <div className="px-3">
+            <NavBar />
+      <Home />
+    </div>
+
     </>
   )
 }
