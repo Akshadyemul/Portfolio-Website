@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mt-20 scroll-mt-24">
+    <section id="contact" className="mt-20 scroll-mt-24 pb-16">
       {/* Heading */}
       <h2 className="text-4xl font-extrabold mb-6 ml-3 sm:ml-8 text-center sm:text-left">
         Contact Me
@@ -97,62 +97,9 @@ export default function Contact() {
           external
         />
       </div>
+      &nbsp;
+      
 
-      {/* Message Form */}
-      <div className="mt-14 rounded-xl border border-gray-200 p-8 bg-white shadow-sm">
-        <h3 className="text-xl font-semibold mb-4 text-center sm:text-left">
-          Send me a message
-        </h3>
-
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            const form = e.target;
-            const name = form.name.value;
-            const email = form.email.value;
-            const message = form.message.value;
-
-            const subject = encodeURIComponent(`Message from ${name}`);
-            const body = encodeURIComponent(
-              `Name: ${name}\nEmail: ${email}\n\n${message}`
-            );
-
-            window.location.href = `mailto:akshadyemul05@gmail.com?subject=${subject}&body=${body}`;
-          }}
-          className="grid gap-4 grid-cols-1 md:grid-cols-2"
-        >
-          <input
-            name="name"
-            type="text"
-            placeholder="Enter your name"
-            required
-            className="rounded-md border px-3 py-2 border-gray-300 focus:ring-2 focus:ring-indigo-200 outline-none"
-          />
-
-          <input
-            name="email"
-            type="email"
-            placeholder="Enter your email"
-            required
-            className="rounded-md border px-3 py-2 border-gray-300 focus:ring-2 focus:ring-indigo-200 outline-none"
-          />
-
-          <textarea
-            name="message"
-            placeholder="Enter your message"
-            rows="4"
-            required
-            className="md:col-span-2 rounded-md border px-3 py-2 border-gray-300 focus:ring-2 focus:ring-indigo-200 outline-none"
-          />
-
-          <button
-            type="submit"
-            className="md:col-span-2 bg-indigo-600 hover:bg-indigo-700 transition text-white font-medium rounded-md px-4 py-2 shadow"
-          >
-            Send Message
-          </button>
-        </form>
-      </div>
     </section>
   );
 }

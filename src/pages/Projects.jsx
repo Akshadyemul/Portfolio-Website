@@ -10,16 +10,15 @@ const projects = [
     demoLink: "https://your-portfolio.com",
     repoLink: "https://github.com/YourUsername/portfolio",
   },
-  {
-    title: "Chat App (MERN)",
-    description:
-      "Full-stack chat application with real-time messaging using React, Express, MongoDB, and Socket.io.",
-    imageUrl: "/path/to/chatapp-screenshot.png",
-    tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-    demoLink: "https://chatapp-demo.com",
-    repoLink: "https://github.com/YourUsername/chat-app",
-  },
-  // Add more project objects here…
+  // {
+  //   title: "Chat App (MERN)",
+  //   description:
+  //     "Full-stack chat application with real-time messaging using React, Express, MongoDB, and Socket.io.",
+  //   imageUrl: "/path/to/chatapp-screenshot.png",
+  //   tech: ["React", "Node.js", "MongoDB", "Socket.io"],
+  //   demoLink: "https://chatapp-demo.com",
+  //   repoLink: "https://github.com/YourUsername/chat-app",
+  // },
 ];
 
 export default function Projects() {
