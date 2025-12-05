@@ -8,7 +8,7 @@ function WhatIDo() {
   const textClass = "text-gray-600 leading-[1.65]";
 
   return (
-    <section id="whatIDo" className="mt-8">
+    <section id="whatIDo" className="mt-20 scroll-mt-24">
       <h1 className="mb-6 ml-1 text-4xl font-extrabold sm:ml-8">What I Do!</h1>
       <hr className="sm:mx-8 mb-10" />
 

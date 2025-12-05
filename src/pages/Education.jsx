@@ -37,13 +37,14 @@ function Education() {
   ];
 
   return (
-    <section id="experience" className="mt-20">
+    <section id="experience" className="mt-20 scroll-mt-24">
       <h2 className="mb-6 ml-3 text-4xl font-extrabold sm:ml-8">
         Education & Experience
       </h2>
       <hr />
 
-      <div className="mt-6 h-full w-full border border-violet-500">
+      {/* Desktop screen */}
+      <div className="hidden sm:block mt-6 h-full w-full border border-violet-500 rounded-xl py-12 px-4">
         <div className="wrap relative h-full overflow-hidden p-10">
           {/* Vertical Line */}
           <div className="absolute left-0 h-full border border-gray-700 border-opacity-20 sm:left-1/2"></div>
@@ -83,6 +84,50 @@ function Education() {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* Mobile screen */}
+         <div className="mt-10 w-full px-4 sm:hidden">
+        <div className="relative mx-auto max-w-4xl px-0 sm:px-6">
+
+          {/* Vertical Line */}
+          <div className="absolute left-4 top-0 h-full w-1 sm:left-1/2 transform sm:-translate-x-1/2"></div>
+
+          {timeline.map((item) => (
+            <div key={item.id} className="mb-12 flex flex-col sm:flex-row">
+
+              {/* Number Circle */}
+              <div className="flex items-center sm:justify-center w-full sm:w-1/2 relative">
+                <div
+                  className={`absolute left-4 sm:left-1/2 transform sm:-translate-x-1/2
+                              flex h-10 w-10 items-center justify-center rounded-full
+                              shadow-lg text-white ${item.color}`}
+                >
+                  {item.id}
+                </div>
+              </div>
+
+              {/* Card */}
+              <div
+                className={`mt-6 sm:mt-0 sm:w-1/2 ${
+                  item.align === "left" ? "sm:pr-10 sm:text-right" : "sm:pl-10"
+                }`}
+              >
+                <div
+                  className={`rounded-xl p-5 shadow-xl text-white ${item.color}`}
+                >
+                  <h3 className="text-lg sm:text-xl font-bold">{item.title}</h3>
+                  <p className="mt-1 text-sm opacity-90">{item.subtitle}</p>
+                  <p className="mt-3 text-sm font-medium opacity-90">
+                    {item.date}
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          ))}
+
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ function NavBar() {
     { label: "Home", id: "home" },
     { label: "Skills", id: "skills" },
     { label: "Experience", id: "experience" },
-    { label: "Project", id: "project" },
+    { label: "Projects", id: "projects" },
     { label: "Contact", id: "contact" },
   ];
 

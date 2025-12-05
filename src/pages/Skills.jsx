@@ -42,7 +42,7 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="mt-20">
+    <section id="skills" className="mt-20 scroll-mt-24">
       <h1 className="mb-3 ml-3 text-4xl font-extrabold sm:ml-8 sm:mb-6">
         Skills
       </h1>
