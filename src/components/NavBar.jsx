@@ -22,27 +22,25 @@ function NavBar() {
   };
 
   // Detect active section based on scroll
-useEffect(() => {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
-        }
-      });
-    },
-    { threshold: 0.15 }
-  );
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
 
-  navItems.forEach((item) => {
-    const section = document.getElementById(item.id);
-    if (section) observer.observe(section);
-  });
+    navItems.forEach((item) => {
+      const section = document.getElementById(item.id);
+      if (section) observer.observe(section);
+    });
 
-  return () => observer.disconnect();
-}, []);
-
-
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <>
@@ -76,7 +74,10 @@ useEffect(() => {
         </ul>
 
         {/* Mobile Hamburger */}
-        <div className="sm:hidden cursor-pointer" onClick={() => setMenuOpen(true)}>
+        <div
+          className="sm:hidden cursor-pointer"
+          onClick={() => setMenuOpen(true)}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-7 h-7 text-gray-700"
@@ -84,7 +85,12 @@ useEffect(() => {
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           </svg>
         </div>
       </nav>
@@ -112,7 +118,12 @@ useEffect(() => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           </button>
         </div>
