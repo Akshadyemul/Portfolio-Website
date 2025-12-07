@@ -1,68 +1,43 @@
-Personal Portfolio – Akshad Yemul
+# Personal Portfolio – Akshad Yemul
 
 A modern and responsive personal portfolio website built using React and Tailwind CSS.
 This portfolio showcases my skills, experience, projects, and contact details in a clean and minimal UI with smooth animations and full mobile responsiveness.
 
-Features
+# Features
+- Fully responsive on all screen sizes
+- Smooth scroll navigation with active link highlight
+- Modern and minimal UI using Tailwind CSS
+- Clean component structure
+- Sections: Skills, Experience, Projects, Contact
+- Email, phone, and map integration
+- Mobile-friendly hamburger menu
 
-Fully responsive on all screen sizes
 
-Smooth scroll navigation with active link highlight
+# Tech Stack
+- Frontend: React.js
+- Styling: Tailwind CSS
 
-Modern and minimal UI using Tailwind CSS
-
-Clean component structure
-
-Sections: Skills, Experience, Projects, Contact
-
-Email, phone, and map integration
-
-Mobile-friendly hamburger menu
-
-Optional typing animation for the intro text
-
-Tech Stack
-
-Frontend: React.js
-
-Styling: Tailwind CSS
-
-Additional Tools:
-
-React Hooks
-
-Intersection Observer
-
-Custom components
-
-Installation & Setup
-
+# Installation & Setup
 Clone the repository:
 
 git clone https://github.com/your-username/your-portfolio.git
 cd your-portfolio
 
-
-Install dependencies:
-
+# Install dependencies:
 npm install
 
-
-Run the development server:
+# Run the development server:
 
 npm run dev
 
-Live Website
-
+# Live Website:
 https://your-portfolio-url.vercel.app
 
-License
-
+# License
 This project is open-source and free to use.
 MIT License
 
-Author
-
+# Author
 Akshad Yemul
 Solapur, Maharashtra
 
