@@ -4,6 +4,17 @@ function Home() {
   const iconClass =
     "w-10 h-10 rounded-md object-cover mx-2 transition-transform duration-200 hover:scale-90";
 
+
+    const onButtonClick = () => {
+    const pdfUrl = "/resume.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "resume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="scroll-mt-24">
       <div className="flex w-full bg-[#f9fcfb] py-10 sm:py-16 items-center">
@@ -32,7 +43,7 @@ function Home() {
             {/* Buttons + Icons */}
             <div className="flex items-center gap-4 flex-wrap">
               {/* Download Resume */}
-              <button className="relative flex items-center gap-1 rounded-3xl bg-[#5c5fe9] px-8 py-3 font-semibold text-white shadow-md transition-all duration-300 hover:bg-opacity-80 active:shadow-inner hover:scale-90">
+              <button onClick={onButtonClick} className="relative flex items-center gap-1 rounded-3xl bg-[#5c5fe9] px-8 py-3 font-semibold text-white shadow-md transition-all duration-300 hover:bg-opacity-80 active:shadow-inner hover:scale-90">
                 Download Resume
               </button>
 
