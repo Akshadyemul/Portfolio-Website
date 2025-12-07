@@ -1,14 +1,16 @@
 import React from "react";
+import portfolioImg from "../assets/portfolio-screenshot.png";
+
 
 const projects = [
   {
     title: "My Portfolio Website",
     description:
       "A personal portfolio built using React, Tailwind CSS — responsive, modern UI, and smooth scroll navigation.",
-    imageUrl: "/path/to/portfolio-screenshot.png", // replace with your image path
+    imageUrl: portfolioImg,
     tech: ["React", "Tailwind", "JavaScript"],
-    demoLink: "https://your-portfolio.com",
-    repoLink: "https://github.com/YourUsername/portfolio",
+    demoLink: "https://portfolio-website-seven-mu-42.vercel.app/",
+    repoLink: "https://github.com/Akshadyemul/Portfolio-Website",
   },
   // {
   //   title: "Chat App (MERN)",
@@ -38,7 +40,7 @@ export default function Projects() {
               <img
                 src={proj.imageUrl}
                 alt={proj.title}
-                className="w-full h-80 object-cover"
+                className="w-full h-fit object-cover"
               />
             )}
 
