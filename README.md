@@ -1,16 +1,77 @@
-# React + Vite
+Personal Portfolio – Akshad Yemul
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using React and Tailwind CSS.
+This portfolio showcases my skills, experience, projects, and contact details in a clean and minimal UI with smooth animations and full mobile responsiveness.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fully responsive on all screen sizes
 
-## React Compiler
+Smooth scroll navigation with active link highlight
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern and minimal UI using Tailwind CSS
 
-## Expanding the ESLint configuration
+Clean component structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sections: Skills, Experience, Projects, Contact
+
+Email, phone, and map integration
+
+Mobile-friendly hamburger menu
+
+Optional typing animation for the intro text
+
+Tech Stack
+
+Frontend: React.js
+
+Styling: Tailwind CSS
+
+Additional Tools:
+
+React Hooks
+
+Intersection Observer
+
+Custom components
+
+Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+Live Website
+
+https://your-portfolio-url.vercel.app
+
+License
+
+This project is open-source and free to use.
+MIT License
+
+Author
+
+Akshad Yemul
+Solapur, Maharashtra
+
+📧 Email: akshadyemul05@gmail.com
+
+🐙 GitHub: https://github.com/Akshadyemul
+
+💼 LinkedIn: https://linkedin.com/in/akshadyemul
+
+📸 Instagram: https://www.instagram.com/akshadyemul
+
+🐦 X (Twitter): https://x.com/AkshadYemul
