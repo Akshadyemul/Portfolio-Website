@@ -15,29 +15,27 @@ function Skills() {
         "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/2048px-Icons8_flat_linux.svg.png",
     },
     {
+      name: "C++",
+      experience: "Self-taught",
+      image: "https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png",
+    },
+    {
       name: "GitHub",
       experience: "Self-taught • Practical hands-on usage",
       image:
         "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
     },
     {
-      name: "React",
-      experience: "Self-taught",
-      image:
-        "https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon.png",
-    },
-
-    {
-      name: "Tailwind CSS",
-      experience: "Self-taught",
-      image:
-        "https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
-    },
-    {
       name: "MongoDB",
       experience: "Self-taught",
       image:
         "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png",
+    },
+    {
+      name: "React",
+      experience: "Self-taught",
+      image:
+        "https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon.png",
     },
   ];
 
