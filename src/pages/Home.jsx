@@ -28,16 +28,17 @@ function Home() {
             </h1>
 
             <h3 className="mt-3 text-xl font-semibold text-gray-800 sm:text-2xl">
-              Software Engineer
+              CSE Student
             </h3>
 
             <p className="mt-4 mb-6 text-lg text-gray-600 text-justify">
-              I’m a Computer Science engineering student who enjoys
+              {/* I’m a Computer Science engineering student who enjoys
               problem-solving, exploring algorithms, and building tools using
               Python. I use Linux as my primary environment and love
               understanding how systems work at a deeper level. I’m naturally
               curious, always learning something new, and constantly working on
-              projects that help me grow as an engineer.
+              projects that help me grow as an engineer. */}
+              I am a Computer Science Engineering student. I am currently learning Data Structures and Algorithms using Python and C++. I have good experience working in a Linux environment and have learned Git and GitHub for version control. I am curious by nature and always eager to learn new things. Currently, I am looking for an internship opportunity where I can apply my skills and continue growing as an engineer.
             </p>
 
             {/* Buttons + Icons */}

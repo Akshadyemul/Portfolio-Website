@@ -10,7 +10,7 @@ function Skills() {
     },
     {
       name: "Linux",
-      experience: "4+ years daily usage (primary OS)",
+      experience: "Daily usage (primary OS)",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/2048px-Icons8_flat_linux.svg.png",
     },
@@ -26,17 +26,17 @@ function Skills() {
         "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
     },
     {
-      name: "MongoDB",
+      name: "SQL",
       experience: "Self-taught",
       image:
-        "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png",
+        "https://img.icons8.com/?size=48&id=J6KcaRLsTgpZ&format=png",
     },
-    {
-      name: "React",
-      experience: "Self-taught",
-      image:
-        "https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon.png",
-    },
+    // {
+    //   name: "React",
+    //   experience: "Self-taught",
+    //   image:
+    //     "https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon.png",
+    // },
   ];
 
   return (
@@ -69,7 +69,7 @@ function Skills() {
             {/* Tooltip */}
             <div className="absolute bottom-full left-1/2 mb-3 hidden w-max -translate-x-1/2 group-hover:flex flex-col items-center transition-all duration-200">
               <div className="rounded-md bg-indigo-700 px-3 py-1 text-xs text-white shadow-lg">
-                {skill.experience} experience
+                {skill.experience} 
               </div>
               <div className="h-0 w-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-indigo-700"></div>
             </div>

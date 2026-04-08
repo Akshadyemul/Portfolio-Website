@@ -18,36 +18,35 @@ function WhatIDo() {
         <div className={card}>
           <h5 className={titleClass}>DSA & Problem Solving</h5>
           <p className={textClass}>
-            Actively strengthening my foundations in algorithms and data structures.
-            Focused on writing clean, optimized code and improving logical reasoning.
+            Currently learning Data Structures and Algorithms using Python and C++.
+            Focused on improving problem-solving skills and writing efficient code.
           </p>
         </div>
 
-        {/* Linux & System Mastery */}
+        {/* Linux */}
         <div className={card}>
-          <h5 className={titleClass}>Linux & System Mastery</h5>
+          <h5 className={titleClass}>Linux</h5>
           <p className={textClass}>
-            Daily Linux user for 4+ years. Skilled with CLI, system configuration,
-            package management, shell scripting, and building an efficient open-source workflow.
+            Comfortable working in a Linux environment with hands-on experience in CLI,
+            package management, and system usage for development.
           </p>
         </div>
 
-        {/* Research & Self-Learning */}
+        {/* Git & GitHub */}
         <div className={card}>
-          <h5 className={titleClass}>Research & Self-Learning</h5>
+          <h5 className={titleClass}>Git & GitHub</h5>
           <p className={textClass}>
-            Curious and self-driven learner. I enjoy exploring new technologies,
-            reading documentation, and understanding systems deeply — especially
-            open-source and backend concepts.
+            Familiar with version control using Git and GitHub. Able to manage code,
+            track changes, and collaborate on projects.
           </p>
         </div>
 
-        {/* Full-Stack Development */}
+        {/* Learning & Growth */}
         <div className={card}>
-          <h5 className={titleClass}>Front-End & Back-End</h5>
+          <h5 className={titleClass}>Learning & Growth</h5>
           <p className={textClass}>
-            Building modern, responsive UIs with React and Tailwind CSS, and developing
-            backend functionality using Python or Node.js based on project needs.
+ Curious and motivated learner who enjoys exploring new concepts and building small projects.
+    I am also interested in research and aim to develop a deeper understanding of computer science concepts over time.
           </p>
         </div>
 
